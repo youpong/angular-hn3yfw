@@ -6,7 +6,7 @@
 
 | component                  | class name             | source path                                        |
 |----------------------------|------------------------|----------------------------------------------------|
-| &gt;app-root&lt;           | AppComponent           | src/app/app.component.ts                           |
-| &gt;app-top-bar&lt;        | TopBarComponent        | src/app/top-bar/top-bar.component.ts               |
-| &gt;app-product-list&lt;   | ProductListComponent   | src/app/product-list/product-list.component.ts     |
-| &gt;app-product-alerts&lt; | ProductAlertsComponent | src/app/product-alerts/product-alerts.component.ts |
+| &lt;app-root&gt;           | AppComponent           | src/app/app.component.ts                           |
+| &lt;app-top-bar&gt;        | TopBarComponent        | src/app/top-bar/top-bar.component.ts               |
+| &lt;app-product-list&gt;   | ProductListComponent   | src/app/product-list/product-list.component.ts     |
+| &lt;app-product-alerts&gt; | ProductAlertsComponent | src/app/product-alerts/product-alerts.component.ts |
