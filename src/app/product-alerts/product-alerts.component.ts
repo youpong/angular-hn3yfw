@@ -1,5 +1,3 @@
-// import { Component } from '@angular/core';
-
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Product } from '../products';
 
@@ -9,6 +7,7 @@ import { Product } from '../products';
   styleUrls: ['./product-alerts.component.css'],
 })
 export class ProductAlertsComponent {
-  @Input() product: Product | undefined; // TODO: product!/undefined
+  @Input() product!: Product;
+  
   @Output() notify = new EventEmitter();
 }
